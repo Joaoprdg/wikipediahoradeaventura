@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  body {
+    background-color: rgb(180, 67, 214);
+  }
+}
+header {
+    width: 100%;
+    background-color: rgb(180, 67, 214);
+    display: flex;
+}
+#logo{
+    width: 30%;
+    background-color: rgb(164, 33, 204);
+    display: flex;
+    justify-content: center;
+    border:solid black 2px;
+    border-radius: 15px;
+}
+img{
+    border-radius: 50px;
+}
+#banner{
+    width: 70%;
+    background-color: rgb(218, 157, 78);
+    display: flex;
+    flex-wrap: wrap;
+    border:solid black 2px;
+    border-radius: 15px;
+}
+#banner h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+ul li {
+    margin: 20px;
+}
+
+/********Botão expandir*****/
+:root {
+    interpolate-size: allow-keywords;
+  }
+.accordion {
+    background: #e7a4a4;
+    border:solid black 2px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-content: end;
+    flex-direction: column;
+  }
+  .quadrado {
+    display: flex;
+    background-color: white;
+    border:solid black 2px;
+    border-radius: 15px;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    align-content: end;
+  }
+
+  .imagem {
+    display: flex;
+    
+  }
+
+  .accordion-toggle {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor:pointer;
+    font-size: 16px;
+  }
+  
+  .accordion-content {
+    height: 0;
+    overflow: hidden;
+    transition: height 1.0s ease-in-out;
+  }
+  
+  .accordion-content.open {
+    height: auto;
+  }
+  .accordion-content.open p {
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .principal {
+    background-color: burlywood;
+    border:solid black 2px;
+    border-radius: 15px;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    
+  }
+  #hum {
+    display: flex;
+    justify-content: center ;
+  }
+  .counteudo {
+    background-color: burlywood;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  #um {
+    background-color: white;
+    border:solid black 2px;
+    border-radius: 15px;
+    height: 25%;
+    width: 25%;
+  }
+
+  #dois {
+    background-color: white;
+    border:solid black 2px;
+    border-radius: 15px;
+    height: 25%;
+    width: 25%;
+
+  }
+
+  #tres {
+    background-color: white;
+    border:solid black 2px;
+    border-radius: 15px;
+    height: 25%;
+    width: 25%;
+  }
+
+  #quatro {
+    background-color: white;
+    border:solid black 2px;
+    border-radius: 15px;
+    height: 25%;
+    width: 25%;
+  }
+  .finaldosite {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(247, 108, 108);
+    border:solid black 2px;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+  }
+  .video {
+
+  }
