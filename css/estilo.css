@@ -24,7 +24,7 @@ img{
 }
 #banner{
     width: 70%;
-    background-color: rgb(218, 157, 78);
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     border:solid black 2px;
@@ -107,13 +107,13 @@ ul li {
     border-radius: 15px;
     width: 90%;
     display: flex;
-    margin-left: 5%;
-    
+    margin-left: 5%; 
   }
   #hum {
     display: flex;
     justify-content: center ;
   }
+  
   .counteudo {
     background-color: burlywood;
     display: flex;
@@ -123,6 +123,10 @@ ul li {
     margin-left: 2px;
     
   }
+  .counteudo :hover{
+    top:-4px;
+    box-shadow:0 4px 4px #965959
+  }
   #um {
     background-color: white;
     border:solid black 2px;
@@ -131,7 +135,7 @@ ul li {
     height: 25%;
     width: 25%;
   }
-
+  
   #dois {
     background-color: white;
     border:solid black 2px;
@@ -180,4 +184,29 @@ ul li {
     background-color: bisque;
     margin-left: 35%;
     margin-top: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #fffefe;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: rgb(73, 73, 73);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
   }
