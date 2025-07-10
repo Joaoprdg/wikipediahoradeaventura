@@ -121,7 +121,7 @@ ul li {
     flex-direction: column;
     margin-top: 2px;
     margin-left: 2px;
-    margin-right: 2px;
+    
   }
   #um {
     background-color: white;
@@ -167,4 +167,14 @@ ul li {
   }
   .video {
 
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    border:solid black 1px;
+    border-radius: 30px;
+    background-color: bisque;
+    margin-left: 35%;
   }
